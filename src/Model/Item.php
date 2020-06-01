@@ -339,7 +339,7 @@ class Item implements \JsonSerializable
      *
      * @return Comission
      */
-    public function getCommission(): ?Comission
+    public function getCommission(): ?Commission
     {
         return $this->commission;
     }
@@ -347,10 +347,10 @@ class Item implements \JsonSerializable
     /**
      * Set the commission.
      *
-     * @param Comission $commission
+     * @param Commission $commission
      * @return Item Return self to enable chaining.
      */
-    public function setCommission(?Comission $commission) : Item
+    public function setCommission(?Commission $commission) : Item
     {
         $this->commission = $commission;
 
